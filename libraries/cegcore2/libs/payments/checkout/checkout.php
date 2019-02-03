@@ -146,7 +146,7 @@ class Checkout {
 				
 				if($data['message_type'] == 'ORDER_CREATED'){
 					$return['type'] = 'payment';
-					$return['total'] = $data['invoice_list_amount'];
+					$return['total'] = $data['invoice_usd_amount'];
 					$return['order'] = [
 						'payment_id' => $data['sale_id'],
 						'payment_date' => $data['sale_date_placed'],

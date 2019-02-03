@@ -94,7 +94,7 @@ defined("GCORE_SITE") or die;
 		<div class="field">
 			<label><?php el('Error message'); ?></label>
 			<input type="text" value="" name="Connection[views][<?php echo $n; ?>][verror]">
-			<small><?php el('The error message to be displayed when the field fails the validtaion test.'); ?></small>
+			<small><?php el('The error message to be displayed when the field fails the validation test.'); ?></small>
 		</div>
 		<div class="field easy_disabled">
 			<label><?php el('Validation rules'); ?></label>

@@ -73,12 +73,16 @@ class Dater{
 		if(is_numeric($time)){
 			$time = '@'.$time;
 		}
+		
 		if($zone == 'utc'){
 			$zone = new \DateTimeZone('UTC');
-		}else{
+		}else if($zone == 'site'){
 			$zone = \G2\L\Config::get('site.timezone', 'UTC');
 			$zone = new \DateTimeZone($zone);
+		}else{
+			$zone = new \DateTimeZone($zone);
 		}
+		
 		$date = new \DateTime($time, new \DateTimeZone('UTC'));
 		$date->setTimeZone($zone);
 		return $date->format($format);
@@ -87,10 +91,13 @@ class Dater{
 	public static function strtotime($time, $zone = 'utc'){
 		if($zone == 'utc'){
 			$zone = new \DateTimeZone('UTC');
-		}else{
+		}else if($zone == 'site'){
 			$zone = \G2\L\Config::get('site.timezone', 'UTC');
 			$zone = new \DateTimeZone($zone);
+		}else{
+			$zone = new \DateTimeZone($zone);
 		}
+		
 		$date = new \DateTime($time, $zone);
 		return $date->format('U');
 	}

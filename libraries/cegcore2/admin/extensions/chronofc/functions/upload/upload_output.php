@@ -91,15 +91,17 @@ defined("GCORE_SITE") or die;
 		
 		if(!empty($stored)){
 			foreach($stored as $field){
-				$fname = str_replace('[]', '', $field['name']);
-				$function['config'] = $function['config']."\n".$fname.(!empty($field['extensions']) ? ':'.$field['extensions'] : '');
-				
-				if(!empty(\GApp::session()->get($connection['alias'].'.attach.'.$field['name']))){
-					$p = '.path';
-					if(strpos($field['name'], '[]') !== false){
-						$p = '.[n].path';
+				if(isset($field['name'])){
+					$fname = str_replace('[]', '', $field['name']);
+					$function['config'] = $function['config']."\n".$fname.(!empty($field['extensions']) ? ':'.$field['extensions'] : '');
+					
+					if(!empty(\GApp::session()->get($connection['alias'].'.attach.'.$field['name']))){
+						$p = '.path';
+						if(strpos($field['name'], '[]') !== false){
+							$p = '.[n].path';
+						}
+						\GApp::session()->set($connection['alias'].'.attach.'.$field['name'].'.path', '{var:'.$function['name'].'.'.$fname.$p.'}');
 					}
-					\GApp::session()->set($connection['alias'].'.attach.'.$field['name'].'.path', '{var:'.$function['name'].'.'.$fname.$p.'}');
 				}
 			}
 		}

@@ -89,8 +89,21 @@ class Extension {
 		
 		$vdomain = $settings->get('vdomain', false);
 		if($vdomain !== false){
-			if(str_replace('www.', '', $vdomain) != str_replace('www.', '', \G2\L\Url::domain(false))){
-				return false;
+			if(!is_array($vdomain)){
+				if(str_replace('www.', '', $vdomain) != str_replace('www.', '', \G2\L\Url::domain(false))){
+					return false;
+				}
+			}else{
+				$found = false;
+				foreach($vdomain as $vd){
+					if(str_replace('www.', '', $vd) == str_replace('www.', '', \G2\L\Url::domain(false))){
+						$found = true;
+						break;
+					}
+				}
+				if(!$found){
+					return false;
+				}
 			}
 		}
 		

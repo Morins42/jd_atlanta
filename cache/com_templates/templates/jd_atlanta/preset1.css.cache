@@ -1,0 +1,113 @@
+a:4:{s:4:"root";s:58:"/var/www/html/Store/templates/jd_atlanta/less/presets.less";s:8:"compiled";s:2159:"a {
+  color: #b0b854;
+}
+a:hover {
+  color: #929940;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #b0b854;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #b0b854;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #b0b854;
+}
+#offcanvas-toggler >i {
+  color: #333333;
+}
+#offcanvas-toggler >i:hover {
+  color: #b0b854;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #a0a846;
+  background-color: #b0b854;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #818738;
+  background-color: #929940;
+}
+ul.social-icons >li a:hover {
+  color: #b0b854;
+}
+.sp-page-title {
+  background: #b0b854;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #333333;
+}
+.sp-module ul >li >a:hover {
+  color: #b0b854;
+}
+.sp-module .latestnews >div >a {
+  color: #333333;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #b0b854;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #b0b854;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #b0b854;
+}
+.search .btn-toolbar button {
+  background: #b0b854;
+}
+.post-format {
+  background: #b0b854;
+}
+.voting-symbol span.star.active:before {
+  color: #b0b854;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #929940;
+}
+.entry-link,
+.entry-quote {
+  background: #b0b854;
+}
+blockquote {
+  border-color: #b0b854;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #b0b854;
+}
+#sp-footer {
+  background: #b0b854;
+}
+.sp-comingsoon body {
+  background-color: #b0b854;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #333333;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #333333;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #b0b854;
+  background-color: #b0b854;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #b0b854;
+  background-color: #b0b854;
+}
+";s:5:"files";a:22:{s:67:"/var/www/html/Store/templates/jd_atlanta/less/legacy/bootstrap.less";i:1548808470;s:67:"/var/www/html/Store/templates/jd_atlanta/less/legacy/variables.less";i:1548808470;s:64:"/var/www/html/Store/templates/jd_atlanta/less/legacy/mixins.less";i:1548808470;s:62:"/var/www/html/Store/templates/jd_atlanta/less/legacy/grid.less";i:1548808470;s:63:"/var/www/html/Store/templates/jd_atlanta/less/legacy/forms.less";i:1548808470;s:63:"/var/www/html/Store/templates/jd_atlanta/less/legacy/wells.less";i:1548808470;s:67:"/var/www/html/Store/templates/jd_atlanta/less/legacy/accordion.less";i:1548808470;s:85:"/var/www/html/Store/templates/jd_atlanta/less/legacy/responsive-767px-max.joomla.less";i:1548808470;s:57:"/var/www/html/Store/templates/jd_atlanta/less/master.less";i:1548808470;s:60:"/var/www/html/Store/templates/jd_atlanta/less/variables.less";i:1548808470;s:57:"/var/www/html/Store/templates/jd_atlanta/less/mixins.less";i:1548808470;s:58:"/var/www/html/Store/templates/jd_atlanta/less/icomoon.less";i:1548808470;s:55:"/var/www/html/Store/templates/jd_atlanta/less/menu.less";i:1548808470;s:56:"/var/www/html/Store/templates/jd_atlanta/less/theme.less";i:1548808470;s:60:"/var/www/html/Store/templates/jd_atlanta/less/jd-custom.less";i:1548808470;s:61:"/var/www/html/Store/templates/jd_atlanta/less/typography.less";i:1548808470;s:53:"/var/www/html/Store/templates/jd_atlanta/less/k2.less";i:1548808470;s:61:"/var/www/html/Store/templates/jd_atlanta/less/virtuemart.less";i:1548808470;s:58:"/var/www/html/Store/templates/jd_atlanta/less/jevents.less";i:1548808470;s:57:"/var/www/html/Store/templates/jd_atlanta/less/kunena.less";i:1548808470;s:64:"/var/www/html/Store/templates/jd_atlanta/less/jd-responsive.less";i:1548808470;s:58:"/var/www/html/Store/templates/jd_atlanta/less/presets.less";i:1548808470;}s:7:"updated";i:1549138136;}
